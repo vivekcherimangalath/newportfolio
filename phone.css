@@ -1,0 +1,579 @@
+@media(max-width:375px){
+
+    .logo{
+        cursor :pointer;
+    }
+    .openmenu{
+        margin:20px;
+        display:block;
+        cursor:pointer;
+    }
+
+    .closemenu{
+        display:block;
+        cursor:pointer;
+        position:absolute;
+        top:20px;
+        right:20px;
+
+    }
+    .mainmenu{
+        flex-direction:column;
+        height:30vh;
+        display:none;
+        justify-content:center;
+        align-items:center;
+        background-color:#FF4A58;
+        color:white;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        z-index:10;
+        transition: top 0.8s ease-in-out;
+    }
+
+    nav li a{
+        color:#1F2235;
+       
+    }
+    nav li{
+        padding-bottom:20px;
+        font-size:1.2rem;
+        
+        
+    }
+.container{
+    width:85%;
+    overflow:hidden;
+}
+    .hero-description{
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .hero-description img{
+        width:272px;
+        height:295px;
+        margin-bottom:10px;
+    }
+
+    .hero-description .description{
+        width:100%;
+        font-size:1.3rem;
+        margin-bottom:60px;
+    }
+    .hero-description .description h4{
+        font-size:1.4rem;
+
+    }
+    .hero-description .description p{
+        font-size:0.65rem;
+
+    }
+    .hero-description .btn{
+        font-size:0.8rem;
+
+    }
+    .hero-description .btn-second{
+        font-size:0.8rem;
+
+    }
+    .hero-description .description h1 {
+        font-size: 4;
+        font-weight: bold;
+        line-height: 120%;
+        color: #1F2235;
+        font-size: 3.5rem;
+    }
+
+    .hero-description .description .moon1{
+        top:269px;
+        right:54px;
+    }
+    .hero-description .description .moon{
+        top:-30px;
+        
+    }
+
+    #skills .container h3{
+        font-size:2.2rem;
+    }
+    #skills .container .circle{
+        left:103px;
+        top:-5px;
+    }
+    #skills .container .main{
+        flex-direction:column;
+        padding-top:40px;
+        
+    }
+
+    #skills .container .main .ui{
+        width:291px;
+        height:294px;
+    }
+    #skills .uiux{
+        width:252px;
+        height:223px;
+    }
+
+
+    #skills .container .main .graphic{
+        width:291px;
+        height:294px;
+    }
+    #skills .gdesign{
+        width:252px;
+        height:223px;
+    }
+
+    #skills .graphic h4{
+        font-size:1.9rem;
+    }
+    #skills .uiux h4{
+        font-size: 1.9rem;
+    }
+    #skills .container .main .graphic .graphicdetail{
+        padding-top:32px;
+        flex-direction:column;
+    }
+    #skills .container .main .graphic .gdesign h5 {
+        font-size:1rem;
+        padding:3px;
+    }
+
+
+#skills .container .main .uiux .uidetail{
+    padding-top:30px;
+}
+#skills .container .main .uiux .uidetail h5 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #F2F2F2;
+    padding: 3px;
+}
+#skills .container .main .uiux h5{
+    font-size:1rem;
+}
+#skills .container .main .ui{
+    margin-bottom:30px;
+}
+
+#Projects{
+    margin-top:60px;
+}
+
+#Projects h3{
+    font-size:2.2rem;
+}
+#Projects .container .p-contain .circle {
+    left:-1px;
+    top:35px;
+}
+#Projects .app img{
+    width:230px;
+    height:272px;
+    
+}
+#Projects .web {
+    flex-direction:column;
+    overflow:hidden;
+}
+#Projects .web .web1{
+    height:328px;
+    display:block;
+   
+}
+#Projects .web .web2{
+    height:328px;
+    display:block;
+   
+}
+#Projects .web .web1 img{
+    width:298px;
+    height:236px;
+    padding-left:80px;
+    padding-top:80px;
+}
+#Projects .web .web2 img{
+    width:281px;
+    height:248px;
+    padding-left:80px;
+    padding-top:80px;
+}
+#Branding h3{
+    font-size:2.2rem;
+    padding-top:0px;
+    padding-bottom:36px;
+}
+#Branding .container .logo-branding .circle{
+    left:8px;
+    top:2px;
+}
+#Branding .logo{
+    flex-direction:column;
+    overflow:hidden;
+}
+#Branding .logo .cosy img{
+
+    width:244px;
+    height:233px;
+  
+}
+#Branding .logo .cosy{
+    height:361px;
+}
+#Branding .logo .honey{
+    height:361px;
+}
+#Branding .logo .honey img{
+    width:574px;
+    height:354px;
+}
+#testimonial h3{
+    font-size:2.2rem;
+}
+#testimonial .text .circle{
+    left:-1px;
+    top:65px;
+}
+.slides{
+    flex-direction:column;
+    margin-left:30px;
+}
+#testimonial .t1{
+    width:245px;
+    height:217px;
+    display:block;
+    margin-bottom:20px;
+}
+
+#testimonial .t1 p{
+
+    font-size: 0.7rem;
+    color: #f2f2f2;
+    width: 214px;
+    font-weight: normal;
+    padding-bottom: 38px;
+    padding-top:54px;
+
+}
+
+#testimonial .t1 h6{
+    font-size:1rem;
+}
+#testimonial .t2{
+    width:245px;
+    height:217px;
+}
+
+#testimonial .t2{
+    width:245px;
+    height:217px;
+    display:block;
+    margin-bottom:20px;
+}
+
+#testimonial .t2 p{
+
+    font-size: 0.7rem;
+    color: #f2f2f2;
+    width: 200px;
+    font-weight: normal;
+    padding-bottom: 38px;
+    padding-top:54px;
+
+}
+
+#testimonial .t2 h6{
+    font-size:1rem;
+}
+
+#testimonial .t3 h6{
+    font-size:1rem;
+}
+#testimonial .t3{
+    width:245px;
+    height:217px;
+    display:block;
+}
+
+#testimonial .t3 p{
+
+    font-size: 0.7rem;
+    color: #f2f2f2;
+    width: 214px;
+    font-weight: normal;
+    padding-bottom: 38px;
+    padding-top:54px;
+
+}
+
+#testimonial .t3 h6{
+    font-size:1rem;
+}
+
+.address{
+    flex-direction:column;
+}
+
+.address .btn{
+    font-size:0.9rem;
+}
+
+.my-addr{
+    padding-top:30px;
+}
+
+#form .c-head h3{
+    font-size:2.2rem;
+}
+
+.c-head .circle{
+    left:30px;
+    top:75px;
+}
+
+/* App */
+#case{
+    overflow:hidden;
+}
+
+#case .container{
+    flex-direction:column-reverse;
+}
+#case h1{
+    font-size:3rem;
+    padding-top:30px;
+}
+#case h4{
+    font-size:1.3rem;
+}
+#case img{
+    width:230px;
+    height:272px;
+}
+#case p{
+    padding-bottom:30px;
+}
+#persona h4{
+    font-size:2.2rem;
+    margin-bottom:30px;
+}
+#persona .circle {
+    left:17px;
+    top:-3px;
+}
+.goal p{
+    font-size:0.9rem;
+    
+}
+.goal h6{
+    text-align:center;
+}
+
+#personas .g-f {
+    flex-direction:column;
+}
+.persons {
+    width:381px;
+    height:720px;
+    padding-top:20px;
+    margin-left:-32px;
+    background:none;
+    /* margin:auto; */
+}
+.persons2{
+    background:none;
+}
+#personas2{
+    background:rgba(255,163,15,0.1);
+}
+#personas{
+    background:rgba(255,74,88,0.1);
+}
+.person-adress{
+    background-color:none;
+}
+.tom-desc {
+    font-size:0.8rem;
+    width:314px;
+    text-align:center;
+}
+.Frustration p{
+    font-size:0.9rem;
+    padding-left:10px;
+}
+.Frustration h6{
+    text-align:center;
+}
+#personas2 .g-f{
+    flex-direction:column;
+}
+#personas2 .Frustration h6 {
+    padding-top:10px;
+}
+
+
+.cristina-desc {
+    width: 311px;
+    height: 99px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin:none;
+    text-align:center;
+}
+.persons2 {
+    width:381px;
+    height:668px;
+    margin-left:-32px;
+    background-color:none;
+    padding-top:20px;
+}
+#personas2 .container{
+    overflow:hidden;
+}
+.pblm h4{
+    font-size:2rem;
+    
+}
+.p-g{
+    flex-direction:column;
+}
+.pblm p {
+    width: 315px;
+    height: 68px;
+    font-size: 0.9rem;
+    
+}
+.goalstatement h4{
+    font-size:2rem;}
+
+    .goalstatement p {
+        width: 316px;
+        height: 68px;
+        font-size: 0.9rem;
+        
+    }
+    .wireframe h3 {
+        font-size:2.2rem;
+        padding-bottom:30px;
+    }
+
+    .wireframe .circle{
+        left:21px;
+        top:0px;
+    }
+    .wire-img img{
+        width:240px;
+        height:524px;
+        margin-left:35px;
+    }
+    .app-img img{
+        width:300px;
+        height:141px;
+        margin-left:11px;
+    }
+    .appdesign .circle{
+        left:25px;
+        top:1px;
+    }
+    #App .app-img{
+        margin-bottom:-245px;
+    }
+    .appdesign h3{
+        font-size:2.2rem;
+    }
+    .proto-type .circle{
+        left:33px;
+        top:1px;
+    }
+    .proto-type{
+        margin-top:20px;
+        margin-bottom:4px;
+    }
+    #prototype video {
+        width:300px;
+        margin:auto;
+    }
+    .proto-type h3{
+        font-size:2.2rem;
+    }
+   #wire{
+        margin-bottom:-656px;
+    }
+    
+    #personas .container{
+        overflow:hidden;
+    }
+    .pblm p{
+        margin-bottom:30px;
+    }
+    .pblm h4{
+        font-size:1.5rem;
+    }
+    .goalstatement h4{
+        font-size:1.5rem;
+    }
+    .goal{
+        padding-bottom:20px;
+    }
+    .main{
+        font-size:1.1rem;
+    }
+    .g-f img{
+        padding-bottom:10px;
+    }
+    footer{
+        padding-bottom:15px;
+    }
+
+    /* Web1 */
+
+    #web1 .container{
+        flex-direction:column-reverse;
+    }
+
+    #web1 h1{
+        font-size:3rem;
+        padding-top:30px;
+        
+    }
+    #web1 img {
+        width:293px;
+        height:233px;
+    }
+    #web1{
+        height:380px;
+        padding-bottom:20px;
+    }
+    #mockup1 .container {
+        flex-direction:column;
+    }
+    .w1{
+        width:249px;
+        height:1009px;
+    }
+
+    .w2{
+        width:243px;
+        height:786px;
+    }
+
+    /* web-2 */
+
+    #mockup2 .container{
+        flex-direction:column;
+    }
+    .w3{
+        width:245px;
+        height:561px;
+    }
+
+    .w4{
+        width:243px;
+        height:668px;
+    }
+}

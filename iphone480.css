@@ -1,0 +1,179 @@
+@media(min-width:376px)and (max-width:458px){
+
+    .logo{
+        cursor :pointer;
+    }
+    .openmenu{
+        margin:20px;
+        display:block;
+        cursor:pointer;
+    }
+
+    .closemenu{
+        display:block;
+        cursor:pointer;
+        position:absolute;
+        top:20px;
+        right:20px;
+
+    }
+    .mainmenu{
+        flex-direction:column;
+        height:30vh;
+        display:none;
+        justify-content:center;
+        align-items:center;
+        background-color:#FF4A58;
+        color:white;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        z-index:10;
+        transition: top 0.8s ease-in-out;
+    }
+
+    nav li a{
+        color:#1F2235;
+       
+    }
+    nav li{
+        padding-bottom:20px;
+        font-size:1.2rem;
+        
+        
+    }
+.container{
+    width:85%;
+  
+}
+.hero-description {
+    flex-direction:column;
+}
+.hero-description .description{
+    
+    margin-left:281px;
+    margin-bottom:81px;
+    width:100vw;
+}
+.hero-description img{
+    margin-left:230px;
+}
+#hero{
+    margin-bottom:165px;
+    margin-top:136px;
+}
+.hero-description .description .moon{
+    left:-158px;
+    top:-54px;
+}
+.hero-description .description .moon1{
+    right:45px;
+    top:434px;
+}
+.hero-description .description h1 {
+    font-size:3rem;
+}
+.hero-description .description h4{
+    font-size:1.7rem;
+}
+.hero-description .description p{
+    font-size:0.9rem;
+}
+.hero-description img{
+    width:332px;
+}
+#skills .container h3{
+    font-size:2.4rem;
+}
+#skills .container h3{
+    margin-left:252px;
+}
+#skills .container .main{
+    padding-top:44px;
+}
+
+
+
+#skills .container .circle {
+    width:50px;
+    height:50px;
+    left:276px;
+    top:1px;
+}
+#skills .container .main {
+    flex-direction:column;
+}
+#skills .container .main {
+    margin-left:261px;
+}
+#Projects h3 {
+    font-size:2.7rem;
+}
+#Projects .container .p-contain .circle {
+    width:70px;
+    height:70px;
+}
+.p-contain{
+    margin-left:299px;
+}
+#Projects .container .p-contain .circle {
+    left:-13px;
+}
+#Projects .app{
+    width:729px;
+}
+#Projects .web{
+    flex-direction:column;
+}
+
+#skills .container .main .ui{
+
+    width:347px;
+    height:352px;
+    margin-bottom:44px;
+
+}
+#skills .uiux {
+    width:310px;
+    height:266px;
+}
+#skills .container .main .graphic{
+    width:347px;
+    height:352px;
+}
+
+#skills .gdesign{
+    width:310px;
+    height:266px;
+}
+#skills .container .main .uiux .uidetail{
+    padding-top:18px;
+}
+
+#skills .container .main .graphic .graphicdetail{
+    padding-top:15px;
+    flex-direction:column;
+}
+#skills .uiux h4{
+    font-size:2rem;
+}
+#skills .graphic h4{
+    font-size:2rem;
+}
+#Projects h3{
+    font-size:2.4rem;
+    margin-left:-43px;
+}
+#Projects .container .p-contain .circle{
+    left:-77px;
+}
+#Projects .app img{
+    width:329px;
+    height:390px;
+}
+#Branding .logo{
+    flex-direction:column;
+}
+
+}
