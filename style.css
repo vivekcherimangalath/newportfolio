@@ -114,7 +114,7 @@ nav li a{
 
 }
 .change{
-    color:#FF4A58;
+    
     font-weight:bold;
 }
 
@@ -156,6 +156,10 @@ nav li a{
     border-radius: 41px;
     padding: 8px 25px;
 }
+.hero-description .btn a{
+    color:#F2F2F2;
+    text-decoration:none;
+}
 .hero-description .btn-second{
     
     font-size:1.2rem;
@@ -169,6 +173,11 @@ nav li a{
     border: 1px solid #FF4A58;
     color:#FF4A58;
     background:none;
+}
+
+.hero-description .btn-second a{
+    text-decoration:none;
+    color:#FF4A58;
 }
 
 /* Skills */
