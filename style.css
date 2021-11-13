@@ -113,6 +113,10 @@ nav li a{
     animation: head 1s forwards ease-in-out ;
 
 }
+.change{
+    color:#FF4A58;
+    font-weight:bold;
+}
 
 @keyframes head{
     100%{
